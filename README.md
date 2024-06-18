@@ -11,6 +11,7 @@ Sou Rômulo Sherman, mestrando em Humanidades Digitais, formado em Filosofia e S
 - `index.html`: Arquivo principal do site.
 - `sua-foto.jpg`: Imagem pessoal (substitua pela sua própria foto).
 - `README.md`: Este arquivo de orientação.
+- `styles.css`: Arquivo de estilos CSS.
 
 ## Publicação no GitHub Pages
 
@@ -18,7 +19,7 @@ Sou Rômulo Sherman, mestrando em Humanidades Digitais, formado em Filosofia e S
    - Nomeie o repositório como `digital-humanities-journey`.
 
 2. **Faça o upload dos arquivos**:
-   - Envie `index.html`, `sua-foto.jpg` e `README.md` para o repositório.
+   - Envie `index.html`, `sua-foto.jpg`, `styles.css` e `README.md` para o repositório.
 
 3. **Habilite o GitHub Pages**:
    - Vá para as configurações do repositório (Settings).
@@ -26,20 +27,13 @@ Sou Rômulo Sherman, mestrando em Humanidades Digitais, formado em Filosofia e S
    - Salve as configurações.
 
 4. **Acesse seu site**:
-   - Seu site estará disponível em `https://seu-usuario.github.io/digital-humanities-journey`.
+   - Seu site estará disponível em `https://seu-usuario.github.io/digital-humanities-journey/`.
 
-## Personalização
+Se o `README.md` estiver sendo exibido em vez do `index.html`, use o botão abaixo para navegar para a página principal:
 
-- **Foto**: Substitua `sua-foto.jpg` por uma foto sua.
-- **Conteúdo**: Edite o `index.html` para personalizar as seções Sobre Mim, Projetos, Blog e Contato.
-
-## Contato
-
-Para quaisquer dúvidas, entre em contato pelo formulário de contato no site ou envie um email para `seu-email@dominio.com`.
-
-&copy; 2024 Rômulo Sherman. Todos os direitos reservados.
-
-
-
-
-
+```html
+<a href="index.html">
+    <button style="padding: 10px 20px; background-color: #0056b3; color: white; border: none; cursor: pointer;">
+        Ir para Página Principal
+    </button>
+</a>
